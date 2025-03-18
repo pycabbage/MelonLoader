@@ -65,7 +65,7 @@ namespace MelonLoader.Il2CppAssemblyGenerator.Packages
                 "\"" + Path.GetDirectoryName(Core.GameAssemblyPath) + "\"",
 
                 "--exe-name",
-                "\"" + Process.GetCurrentProcess().ProcessName + "\"",
+                "\"" + Process.GetCurrentProcess().ProcessName + "_\"",
 
                 "--output-as",
                 "dummydll",
